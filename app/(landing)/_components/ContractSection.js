@@ -89,7 +89,7 @@ const ContractSection = () => {
                     <p className="text-green-600 font-semibold">Text Copied!</p>
                   ) : (
                     <p>
-                      CA<span style={{ fontSize: "18px" }}>: SOON</span>
+                      CA<span style={{ fontSize: "18px" }}>: SOONF</span>
                     </p>
                   )}
                 </span>

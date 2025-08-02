@@ -24,6 +24,8 @@ export default function Home() {
       {/* New Figma Hero Section */}
       <Hero />
 
+      <span className="block bg-duis border-red-900 border-[9.6px] h-[3px]"></span>
+
       {/* About MOMO Section */}
       <AboutMomo />
 
@@ -41,8 +43,9 @@ export default function Home() {
 
         <div className="max-w-[85rem] mx-auto py-12 text-gray-200 bg-white bg-opacity-5">
           <div
-            className="my-16 text-white text-center text-6xl font-luckiest-guy"
+            className="my-16 text-center text-6xl font-luckiest-guy"
             style={{
+              color: "#C42B10",
               textShadow:
                 "4px 4px 0 #000, 6px 6px 0 #000, 0 4px 0 #000, -2px -2px 0 #000, -2px 2px 0 #000, 2px -2px 0 #000, 2px 2px 0 #000",
             }}

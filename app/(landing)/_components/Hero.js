@@ -21,7 +21,10 @@ const Hero = () => {
       <div className="relative z-10 w-full max-w-7xl px-4 sm:px-8 lg:px-12 mx-auto">
         <div className="flex flex-col items-start gap-7 lg:gap-8">
           {/* Main Heading */}
-          <div className="flex flex-col items-start w-full">
+          <div
+            className="flex flex-col items-start w-full"
+            style={{ marginTop: "-2px" }}
+          >
             <h1
               className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-normal leading-tight"
               style={{

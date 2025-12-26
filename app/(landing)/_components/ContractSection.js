@@ -54,7 +54,7 @@ const ContractSection = () => {
       className="flex w-full justify-center items-center"
       style={{
         backgroundColor: "rgba(228, 224, 225, 1)",
-        padding: "84px 128px 108px",
+        padding: "58px 128px 108px",
       }}
     >
       <div className="w-full max-w-6xl flex flex-col items-center">
